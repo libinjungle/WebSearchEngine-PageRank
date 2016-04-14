@@ -5,7 +5,7 @@ Run the python program with your directory of html files and F value
 $ python weighted_page_rank.py -docs <Your_Directory> -f <F value>
 
 Output:
-BINLI@172-16-200-249:~/PycharmProjects/LearningPython/WSE_P3$ python weighted_page_rank.py -docs /Users/BINLI/Documents/Course/Web-Search-Engine/PS/PS3/docs -f 0.7
+$ python weighted_page_rank.py -docs /Users/BINLI/Documents/Course/Web-Search-Engine/PS/PS3/docs -f 0.7
 Arctic.html :  0.1709
 Atlantic.html :  0.1650
 Pinniped.html :  0.1638
