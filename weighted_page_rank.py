@@ -2,7 +2,6 @@ import glob
 import sys
 import numpy as np
 from argparse import ArgumentParser
-
 from bs4 import BeautifulSoup
 
 DEBUG = False
@@ -17,7 +16,7 @@ class Page(object):
     if links_weight is None:
       links_weight = {}
       self._links_weight = links_weight
-
+  # called when doing comparison such as obj1 < obj2
   def __cmp__(self, other):
     if hasattr(other, '_score'):
       return self._score.__cmp__(other._score)
